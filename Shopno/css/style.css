@@ -949,6 +949,10 @@ ul.slick-dots button:hover {
 		line-height: 40px;
 	}
 
+	header .menu .menu-stripes .sub-menu ul > li {
+		line-height: 35px;
+	}
+
 	.about-us {
 		padding: 100px 120px 0;
 		padding-bottom: 100px;
@@ -1187,6 +1191,8 @@ ul.slick-dots button:hover {
 	}
 }
 
+/*width 768px*/
+
 @media (max-width: 768px) {
 	
 	header {
@@ -1212,6 +1218,10 @@ ul.slick-dots button:hover {
 
 	header .glass {
 		background-size: 50%;
+	}
+
+	header .menu .menu-stripes .sub-menu ul > li {
+		line-height: 25px;
 	}
 
 	.about-us {
@@ -1410,3 +1420,312 @@ ul.slick-dots button:hover {
 	}
 }
 
+@media (max-width: 480px) {
+	header .menu .menu-stripes {
+		display: none;
+	}
+
+	header {
+		padding: 40px 40px 80px;
+	}
+
+	header .text {
+		margin-top: 60px;
+	}
+
+	header .text span {
+		font: 700 16px Montserrat;
+	}
+
+	header .contact-us {
+		margin: 50px auto 0;
+		width: 150px;
+	}
+
+	header .contact-us a {
+		line-height: 25px;
+	}
+
+	.about-us {
+		padding: 30px 30px 30px;
+	}
+	.about-us .first-line {
+		font: 700 26px Montserrat;
+	}
+
+	.about-us .second-line {
+		margin-bottom: 30px;
+		font: 400 14px Merriweather;
+	}
+
+	.about-us .text-block {
+		width: 100%;
+	}
+
+	.about-us .slider {
+		width: 100%;
+	}
+
+	.about-us .slider .image-slider {
+		width: 100%;
+	}
+
+	.about-us .text-block h3:nth-child(1) {
+		text-align: center;
+	}
+	.about-us .text-block h3:nth-child(4) {
+		text-align: center;
+	}
+
+	.featured-works {
+		margin: 30px 30px 30px;
+		padding-bottom: 30px;
+	}
+
+	.featured-works h2 {
+		font: 700 26px Montserrat;
+	}
+
+	.featured-works p {
+		font: 14px Merriweather;
+	}
+
+	.featured-works .gallery {
+		margin-top: 30px;
+	}
+
+	.our-services {
+		padding: 30px 30px 30px;
+	}
+
+	.our-services h2 {
+		font: 700 26px Montserrat;
+	}
+
+	.our-services p {
+		font: 14px Merriweather;
+		line-height: 24px;
+	}
+
+	.our-services .service-blocks {
+		margin-top: 30px;
+	}
+
+	.our-services .service-blocks .blocks {
+		width: 100%;
+	}
+
+	.small-team {
+		padding: 30px 30px 30px;
+	}
+
+	.small-team {
+		padding: 30px 30px 30px;
+	}
+
+	.small-team h2 {
+		font: 700 26px Montserrat;
+	}
+
+	.small-team p {
+		font: 14px Merriweather;
+		line-height: 20px;
+	}
+
+	.small-team .workers {
+		margin-top: 30px;
+	}
+
+	.small-team .workers .worker {
+		width: 100%;
+		padding-top: 70%;
+		margin-top: 15px;
+	}
+
+	.small-team .workers .worker-2 .about-worker-2 {
+		width: 85%;
+		padding: 5px 10px 0;
+	}
+
+	.small-team .workers .worker-2:hover > .about-worker-2 {
+		opacity: 1;
+		visibility: hidden;
+	}
+
+	.what-they-says {
+		padding: 30px 30px 30px;
+	}
+
+	.what-they-says h2 {
+		font: 700 24px Montserrat;
+	}
+
+	.what-they-says p {
+		font: 14px Merriweather;
+		line-height: 20px;
+	}
+
+	.what-they-says .info-container {
+		padding-top: 30px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.what-they-says .info-container .photo-slider {
+		width: 100%;
+		padding-top: 100%;
+	}
+
+	.what-they-says .info-container .text-container {
+		width: 100%;
+		padding: 40px 20px 20px;
+	}
+
+	.forms {
+		padding: 30px 30px 30px;
+		flex-wrap: wrap;
+	}
+
+	.forms .form {
+		width: 100%;
+		padding: 15px 15px 15px;
+	}
+
+	.forms .map {
+		width: 100%;
+		padding: 10px 10px 10px;
+		margin-top: 15px;
+	}
+}
+
+@media (max-width: 375px) {
+	
+	header {
+		padding: 30px 30px 70px;
+	}
+
+	header .text p {
+		word-wrap: break-word;
+	}
+
+	header .text span:last-child {
+		margin-left: 3px;
+	}
+
+	header .contact-us {
+		margin: 20px auto 0;
+		width: 120px;
+	}
+	
+	header .contact-us a {
+		line-height: 25px;
+		font-size: 16px;
+	}
+
+	.about-us {
+		padding: 20px 20px 20px;
+	}
+
+	.about-us .first-line {
+		font: 700 20px Montserrat;
+	}
+
+	.about-us .second-line {
+		margin-bottom: 20px;
+	}
+
+	.about-us .slider {
+		width: 100%;
+	}
+
+	ul.slick-dots {
+		margin-top: 20px;
+	}
+
+	.featured-works {
+		margin: 20px 20px 20px;
+		padding-bottom: 20px;
+	}
+
+	.featured-works h2 {
+		font: 700 20px Montserrat;
+	}
+
+	.featured-works .gallery {
+		margin-top: 20px;
+	}
+
+	.featured-works .gallery {
+		margin-top: 15px;
+	}
+
+	.our-services h2 {
+		font: 700 20px Montserrat;
+	}
+
+	.our-services {
+		padding: 20px 20px 20px;
+	}
+	.our-services p {
+		line-height: 20px;
+	}
+
+	.our-services .service-blocks {
+		margin-top: 20px;
+	}
+
+	.our-services .service-blocks .blocks {
+		padding: 0 10px;
+	}
+
+	.small-team {
+		padding: 20px 20px 20px;
+	}
+
+	.small-team h2 {
+		font: 700 20px Montserrat;
+	}
+
+	.what-they-says h2 {
+		font: 700 20px Montserrat;
+	}
+
+	.forms {
+		padding: 20px 20px 20px;
+		flex-wrap: wrap;
+	}
+
+	.footer .copyright {
+		margin-top: 20px;
+		font: 500 14px Raleway;
+	}
+
+}
+
+@media (max-width: 320px) {
+
+	header {
+		padding: 20px 20px 60px;
+	}
+
+	header .text span {
+		margin-left: 5px;
+	}
+
+	header .contact-us {
+		margin: 15px auto 0;
+	}
+
+	header .contact-us a {
+		line-height: 20px;
+		font-size: 14px;
+	}
+
+	header .glass {
+		background-size: 35%;
+	}
+
+	.about-us .slider {
+		width: 100%;
+	}
+
+}
