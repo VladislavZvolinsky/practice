@@ -1615,7 +1615,6 @@ ul.slick-dots button:hover {
 }
 
 @media (max-width: 375px) {
-	
 	header {
 		padding: 30px 30px 70px;
 	}
@@ -1723,7 +1722,7 @@ ul.slick-dots button:hover {
 	header .text span {
 		margin-left: 15px;
 	}
-	
+
 	.our-services .service-blocks .block-6 a {
 		margin: 0px 0 50px 0;
 	}
